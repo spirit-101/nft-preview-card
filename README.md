@@ -4,11 +4,11 @@
 
 <hr>
 
-🌐 [View the live site](https://spirit-101.github.io/product-preview-card/)
+🌐 [View the live site](https://spirit-101.github.io/nft-preview-card/)
 
-🧠 [Check out the solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-pLtan2EGRj)
+🧠 [Check out the solution](https://www.frontendmentor.io/solutions/nft-preview-card-XXzP2Of1lg)
 
-📝 [View the challenge](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+📝 [View the challenge](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
 
 ---
 
@@ -24,7 +24,7 @@
 
 - Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-- You can see a live site at [QR Code Component](https://spirit-101.github.io/product-preview-card/)
+- You can see a live site at [NFT Preview Card](https://spirit-101.github.io/nft-preview-card/)
 
 ### Built with
 
