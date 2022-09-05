@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 2rem 1rem;
+  padding: 2rem;
+  border-radius: 11px;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img-container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+}
+
+.card-img {
+  display: block;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 11px;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 10px;
+  transition: all 0.6s;
+}
+
+.view {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: none;
+  transition: all 0.6s;
+}
+
+.img-container:hover .overlay {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.img-container:hover .overlay + .view {
+  display: block;
+}
+
+.title {
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.title:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.title-text {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.info {
+  display: flex;
+  gap: 13rem;
+  margin-bottom: 1.6rem;
+  font-size: 1.3rem;
+  align-items: center;
+}
+
+.crypto {
+  display: flex;
+  align-self: center;
+  color: hsl(178, 100%, 50%);
+}
+
+.time {
+  display: flex;
+  align-self: center;
+  color: hsl(215, 51%, 70%);
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.author-img {
+  width: 10%;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.author {
+  color: hsl(215, 51%, 70%);
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.author span {
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.author span:hover {
+  color: hsl(178, 100%, 50%);
+}
